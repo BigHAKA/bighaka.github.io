@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Mac-terminal连接服务器</title>
+      <link href="/uncategorized/Mac-terminal"/>
+      <url>/uncategorized/Mac-terminal</url>
+      
+        <content type="html"><![CDATA[<p>前提：要有你需要连接的服务器的ip，端口号，服务器上的账户和密码<br>1、首先打开终端，然后输入sudo su - 回车进入根目录<br>2、然后输入：ssh -p 端口号 服务器用户名@ip （例如ssh -p 666 <a href="mailto:&#x75;&#x73;&#x65;&#114;&#x72;&#x6f;&#111;&#116;&#x40;&#x36;&#54;&#46;&#54;&#x36;&#46;&#x36;&#x36;&#46;&#x36;&#x36;">&#x75;&#x73;&#x65;&#114;&#x72;&#x6f;&#111;&#116;&#x40;&#x36;&#54;&#46;&#54;&#x36;&#46;&#x36;&#x36;&#46;&#x36;&#x36;</a><br>）回车，到这会让你输入yes或者no来确认是否连接，输入yes回车<br>3、然后输入在服务器上的用户密码回车<br>4、到此进入的是你在服务器上的账户的目录，即为连接成功</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ sudo su -</span><br><span class="line">//换成自己的服务器端口 用户名 和 地址</span><br><span class="line">$ ssh -p 666 root@176.66.66.66</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>因为不是第一次连接所以没有是否确认连接的提示</p><p><img src="https://upload-images.jianshu.io/upload_images/2462926-daf115f22d9b4e2b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p>没有端口的话直接</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh root@176.66.66.66</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/uncategorized/hello-world"/>
       <url>/uncategorized/hello-world</url>
